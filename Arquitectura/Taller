@@ -70,10 +70,19 @@ un lenguaje objeto, normalmente código de máquina, es decir un compilador es u
 (Scalable Processor ARChitecture) es una arquitectura de tipo escalable con la que se pueden definir versiones posteriores de la misma
 co  mayor cantidad de características siempre salvaguardando la compatiblidad del programa con versiones anteriores.
 
-
 10. ¿Cuáles son las categorías de instrucciones de la arquitectura SPARCV8?
+1) Load/store
+2) Arithmetic/logical/shift
+3) Control transfer
+4) Read/write control register
+5) Floating-point operate
+6) Coprocessor operate
 
 11. ¿Que tipos de registros se encuentran en SPARC V8?
+-in registros de entrada
+-local registros locales
+-out registros de salida
+-global registros globales
 
 12. ¿ Cuál es el número mínimo y máximo de registros que se puede implementar en la arquitectura SPARCV8?
 
