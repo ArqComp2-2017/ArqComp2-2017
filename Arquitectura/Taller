@@ -85,6 +85,8 @@ co  mayor cantidad de características siempre salvaguardando la compatiblidad d
 -global registros globales
 
 12. ¿ Cuál es el número mínimo y máximo de registros que se puede implementar en la arquitectura SPARCV8?
+-Número mínimo 2.
+-Número máximo 32.
 
 13. ¿ Cuáles son las instrucciones de acceso a memoria de SPARCV8? de un ejemplo de cada uno.
 
