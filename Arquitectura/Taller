@@ -35,12 +35,28 @@ a las direcciones de memoria.
    otros avances significativos. 
 
 3. Segun Flynn ¿ Cuál es la clasificación de las arquitecturas?
+       A) SISD (Simples instrucciones, simples datos).  
+       B) SIMD (Simples instrucciones, múltiples datos).
+       C) MISD (Múltiples instrucciones, múltiples datos).
+       C) MIMD (Multiples instrucciones, múltiples datos).
+
 
 4. Nombre las clases de aplicaciones de cómputo.
+.         Programas Ofimáticos
+·         Programas de Diseño
+·         Programas de Comunicaciones
+·         Programas Multimedia
+·         Programas de Edición
+·         Programas de Gestión
+
 
 5. Muestre la clasificación de la jerarquía de un equipo de cómputo.
 
+
+
 6. ¿Qué es un compilador?
+Un compilador es un programa que traduce de un lenguaje fuente (normalmente un lenguaje de programación de alto nivel, a 
+un lenguaje objeto, normalmente código de máquina, es decir un compilador es un traductor. 
 
 7. ¿ Defina qué es una instrucción?
 
