@@ -89,7 +89,12 @@ co  mayor cantidad de características siempre salvaguardando la compatiblidad d
 -Número máximo 32.
 
 13. ¿ Cuáles son las instrucciones de acceso a memoria de SPARCV8? de un ejemplo de cada uno.
-
+- Load 
+  Ejemplo: A[30]   Ld[%O0 + (30*4)], %L0
+- Store A[300] = h + A[30]
+  add %L1, %L0, %L1
+  ST %L1,[%O0 + (300*4)]
+  
 14. Represente los siguientes números en complemento a 2.
 ```
 	a.5
