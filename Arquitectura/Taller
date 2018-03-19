@@ -105,8 +105,48 @@ co  mayor cantidad de características siempre salvaguardando la compatiblidad d
 ```
 15. Explique las instrucciones aritmético lógicas y su sintaxis en lenguaje ensamblador.
 
+Las instrucciones Aritmético/Lógicas (SHIFT): son las que ejecutan operaciones aritméticas-logicas y de desplazamiento de bits. 
+Estas instrucciones calculan el resultado si es en función de 2 operandos y guardan el resultado si es un registro.
+
+La instrucción en la arquitectura SPARCV8 es [Registro fuente 1, resgitro fuente 2 ó i nmediato, Registro destino]
+
 16. Explique cada uno de los campos de los 3 formatos de la arquitectura SPARC V8.
 
+- Format 1 (op = 1): CALL
+  [op disp30]
+
+- Format 2 (op = 0): SETHI & Branches (Bicc, FBfcc, CBccc)
+  +Versión 1 [op rd op2 imm22]
+  +Versión 2 [op a cond op2 disp22]
+
+- Format 3 (op = 2 or 3): Remaining instructions
+  +Versión 1 [op rd op3 rs1 i=0 asi rs2]
+  +Versión 2 [op rd op3 rs1 i=1 simm13]
+  +Versión 3 [op rd op3 rs1 opf rs2]
+  
+  Descripción de los campos general:
+  -op y op2
+       Estos campos de 2 y 3 bits codifican los 3 formatos principales y el formato 2
+       instrucciones según los cuadros 5-1 y 5-2 del libro "Manual de la arquitectura SPARC V8).
+  -rd
+	Este campo de 5 bits es la dirección del destino (o fuente) r o f o coprocesador
+	registro (s) para una instrucción de carga / aritmética (o almacenamiento). Para una instrucción
+	que lee / escribe un doble (o cuádruple), los bits menos significativos (o dos) son
+	no utilizado y debe ser proporcionado como cero por el software.
+  -cond
+	Este campo de 4 bits selecciona los códigos de condición para probar una instrucción de bifurcación.
+
+  - imm22
+	Este campo de 22 bits es una constante que SETHI coloca en el extremo superior de un destino.
+  -disp22 y disp30
+	Estos campos de 30 bits y 22 bits están alineados con las palabras, con extensión de signo, relativos a la PC
+	desplazamientos para una llamada.
+  -op3
+	Este campo de 6 bits (junto con 1 bit de op) codifica las instrucciones de formato 3.
+  -i
+	El bit i selecciona el segundo operando ALU para aritmética y las instrucciones (entera) y load / store . Si i = 0, el 
+	operando es r [rs2]. Si i = 1, el operando es simm13, con extensión de signo de 13 a 32 bits.
+	
 17. ¿Qué diferencia hay entre el campo **op, op2 y op3**?
 
 18. ¿Qué es **PSR** ?, explique cada uno de sus campos.
