@@ -3,12 +3,36 @@
 #### 2018
 ###### Jornada Especial.
 1. ¿Que es una arquitectura de computadores?
-La arquitectura de computadoras es el diseño conceptual y la estructura operacional fundamental de un sistema que conforma una computadora. Es decir, es un modelo y una descripción funcional de los requerimientos y las implementaciones de diseño para varias partes de una computadora, con especial interés en la forma en que la unidad central de proceso (CPU) trabaja internamente y accede a las direcciones de memoria. “Unidad 1 Introducción a la Arquitectura de Computadoras/ Ing Luis Heriberto Rodríguez Soriana/ Universidad Veracruzana”.
-
-
-
+La arquitectura de computadoras es el diseño conceptual y la estructura operacional fundamental de un sistema que conforma una 
+computadora. Es decir, es un modelo y una descripción funcional de los requerimientos y las implementaciones de diseño para varias 
+partes de una computadora, con especial interés en la forma en que la unidad central de proceso (CPU) trabaja internamente y accede 
+a las direcciones de memoria.
+“Unidad 1 Introducción a la Arquitectura de Computadoras/ Ing Luis Heriberto Rodríguez Soriana/ Universidad Veracruzana”.
 
 2. Nombre las generaciones de los computadores y sus características más relevantes.
+   A)Primera Generación (1946-1954): Denominadas las macrocomputadoras, se caracterizaron por estar integradas de relevadores 
+   electromecánicos o de tubos de vacío, eran de gran tamaño, por lo cual ocupaban espaciosos espacios, su capacidad de almacenamiento
+   era muy escasa, la entrada de datos era en tarjeta o cinta perforada.
+   
+   B)	Segunda Generación (1955-1963): En esta generación, se incluyeron los transistores como reemplazo de los tubos de vacío, 
+   reduciendo así el tamaño, el calentamiento y uso de energía de las computadoras, se incursiono en el desarrollo de memorias de
+   acceso aleatorio mediante núcleos de ferrita y se inició con el uso de cinta magnética, durante esta generación se desarrolló 
+   el primer lenguaje de programación de alto nivel.
+   
+   C)	Tercera Generación (1964-1970): En esta generación se integró a gran escala los transistores en microcircuitos llamados 
+   procesadores o círculos integrados monolíticos, así como la proliferación de lenguajes de alto nivel y la introducción de 
+   programas que afianzaban la comunicación entre el usuario y la computadora, a lo que se denominó sistema operativo, con esta 
+   generación se logró obtener un menor consumo de energía, una relación considerable de espacio, reducción de costos y aumento de 
+   capacidad de procesamiento.
+   
+   D)	Cuarta Generación (1971-1981): El surgimiento del primer microprocesador marca el inicio de esta generación, durante esta
+   generación, se obtuvieron importantes avances tecnológicos, el envió del primero correo electrónico utilizando el signo @, se 
+   creó el primer mouse, el surgimiento del lenguaje BASIC, aparición de las primeras microcomputadoras a las que se denominó 
+   PC, la inclusión de un sistema operativo estandarizado MS-DOS.
+   
+   E)	Quinta Generación (1982-1995): Se creo la primera supercomputadora con capacidad de proceso paralelo, el desarrollo de la 
+   holografía, la nanotecnología, la robótica, las redes neurales, las fibras ópticas, las telecomunicaciones de banda ancha entre 
+   otros avances significativos. 
 
 3. Segun Flynn ¿ Cuál es la clasificación de las arquitecturas?
 
