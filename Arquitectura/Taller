@@ -61,8 +61,15 @@ un lenguaje objeto, normalmente código de máquina, es decir un compilador es u
 7. ¿ Defina qué es una instrucción?
 
 8. ¿Cuales son los principios básicos de diseño de hardware de una arquitectura de cómputo, escriba una definición de cada uno?
+-La simplicidad favorece la regularidad.
+-Más pequeño es más rápido.
+-Hacer que el caso más común sea rápido.
+-Buen diseño demanda buenos compromisos.
 
-9. ¿Qué es SPARCV8?
+9. ¿Qué es SPARCV8? 
+(Scalable Processor ARChitecture) es una arquitectura de tipo escalable con la que se pueden definir versiones posteriores de la misma
+co  mayor cantidad de características siempre salvaguardando la compatiblidad del programa con versiones anteriores.
+
 
 10. ¿Cuáles son las categorías de instrucciones de la arquitectura SPARCV8?
 
