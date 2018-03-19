@@ -185,6 +185,24 @@ int main(){
  ```
 
 27. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función multiplicacion hecha en clase.
+	multiplicación
+0000	MOV 0; % L0
+0004	MOV 1; % O0
+	I´m for
+0008	CMP %L0, % i1
+000C	BGE a No mas for
+0010	SLL %O0 , i0; O0
+0014	BA I´m in for
+0018	ADD %L0, 1, %L0
+	No mas for
+001C	JMPL %07, 8, % g0
+0020	Nop
+	MAIN
+0024	MOV 5, % i0
+0028	MOV 3, % i1
+002C	call Multiplicación
+0030	Nop
+0034	Mov 0, %O1
 
 28. Implemente una función **Fact** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule el factorial de un número entero sin signo.
 
